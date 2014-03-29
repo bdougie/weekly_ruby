@@ -17,7 +17,8 @@ end
 puts sub(1,2)
 
 def sum(*numbers)
-	numbers.inject { |sum, num| sum + num }
+	# numbers.inject { |sum, num| sum + num }
+	numbers.inject(:+)
 end
 
 puts sum(1,2,3)
