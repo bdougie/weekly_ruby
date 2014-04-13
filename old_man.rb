@@ -11,7 +11,7 @@ while true
 	 puts 'HUH?! SPEAK UP, SONNY!'
 	else
 	 puts 'NO, NOT SINCE ' + year.to_s + '!' 	
-	end
+	endruby
 
 	if question == 'end'
 		break
